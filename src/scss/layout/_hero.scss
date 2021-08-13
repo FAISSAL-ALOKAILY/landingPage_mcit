@@ -49,9 +49,8 @@
 
 .hero-illustration-browser {
     position: relative; /* To display all elements above the background color */
-
     svg {
-        width: 427px;
+        width: 500px;
         height: auto;
         margin-left: auto;
     }
@@ -93,6 +92,13 @@
     left: 185px;
 }
 
+img.hero-backImg {
+    position: relative;
+    right: 3px;
+    top: -373px;
+    z-index: 0;
+    width: 63%;
+}
 @include media( '>medium' ) {
 
     .hero-paragraph {
