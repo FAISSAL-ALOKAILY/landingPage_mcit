@@ -99,6 +99,18 @@ img.hero-backImg {
     z-index: 0;
     width: 63%;
 }
+.hero-partners {
+    display: flex;
+    margin: 0em 6em;}
+.hero-logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 2em;
+}
+img.img-logo {
+    width: 144px;
+}
 @include media( '>medium' ) {
 
     .hero-paragraph {
